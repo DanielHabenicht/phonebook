@@ -1,12 +1,22 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"Phonebook"
-		]
-	}
+  "folders": [
+    {
+      "name": "Frontend",
+      "path": "./Phonebook.Frontend"
+    },
+    {
+      "name": "Source.PeopleSoft",
+      "path": "./Phonebook.Source.PeopleSoft"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["Phonebook"]
+  },
+  "extensions": {
+    "recommendations": ["ms-vscode-remote.remote-containers", "esbenp.prettier-vscode"]
+  }
 }

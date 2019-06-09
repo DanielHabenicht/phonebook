@@ -1,0 +1,7 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+  "dockerFile": "dev.Dockerfile",
+  "runArgs": ["--mount", "type=volume,target=/workspaces/phonebook/Phonebook.Frontend/node_modules"],
+  "appPort": 4200,
+  "extensions": []
+}
